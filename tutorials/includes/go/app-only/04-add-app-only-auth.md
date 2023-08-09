@@ -19,7 +19,7 @@ In this section you will use the `ClientSecretCredential` class to request an ac
     > [!TIP]
     > If you are using **goimports**, some modules may have been auto-removed from your `import` statement in **graphhelper.go** on save. You may need to re-add the modules to build.
 
-1. Replace the empty `initializeGraph` function in **graphapponlytutorial.go** with the following.
+1. Replace the empty `initializeGraph` function in **graphtutorial.go** with the following.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="InitializeGraphSnippet":::
 
@@ -33,7 +33,7 @@ Next, add code to get an access token from the `ClientSecretCredential`.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphhelper/graphhelper.go" id="GetAppTokenSnippet":::
 
-1. Replace the empty `displayAccessToken` function in **graphapponlytutorial.go** with the following.
+1. Replace the empty `displayAccessToken` function in **graphtutorial.go** with the following.
 
     :::code language="go" source="../src/app-auth/graphapponlytutorial/graphapponlytutorial.go" id="DisplayAccessTokenSnippet":::
 
